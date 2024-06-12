@@ -8,12 +8,12 @@
                 </router-link>
             </div>
             <div class="col-md-6 d-none d-md-block">
-              <form class="search-wrap">
-                <div class="input-group w-100">
-                    <input type="text" class="form-control search-form" name="q" placeholder="Telusuri layanan">
-                    <button class="btn search-button" type="submit"><i class="fa fa-search"></i></button>
-                </div>
-              </form>
+                <form class="search-wrap">
+                    <div class="w-100">
+                        <input type="text" class="form-control search-form" name="q" placeholder="Telusuri layanan">
+                        <!-- <button class="btn" type="submit"><i class="fa fa-search"></i></button> -->
+                    </div>
+                </form>
             </div>
             <div class="col-md-3 col-5">
                 <div class="d-flex justify-content-end">
