@@ -12,8 +12,6 @@
                 <i class="fas fa-shopping-cart"></i> My Files
             </router-link>
             
-
-            <a href="#" class="list-group-item text-decoration-none text-dark text-uppercase"><i class="fas fa-shopping-cart"></i> My Order</a>
             <a @click="logout" style="cursor:pointer" class="list-group-item text-decoration-none text-dark text-uppercase"><i class="fas fa-sign-out-alt"></i> Logout</a>
           </ul>
       </div>

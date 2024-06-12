@@ -8,6 +8,9 @@
                 <div class="card border-0 rounded shadow">
                     <div class="card-body">
                         <h5><i class="fas fa-shopping-cart"></i> MY FILES</h5>
+                        <div style="position: absolute; right: 20px; top: 11px;">
+                            <router-link :to="{ name: 'posts.create' }" class="btn btn-md btn-primary rounded shadow border-0 mb-3">ADD NEW</router-link>
+                        </div>
                         <hr>
                         <table class="table table-bordered">
                             <thead class="thead-dark">

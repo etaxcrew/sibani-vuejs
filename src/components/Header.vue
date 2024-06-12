@@ -11,7 +11,6 @@
                 <form class="search-wrap">
                     <div class="w-100">
                         <input type="text" class="form-control search-form" name="q" placeholder="Telusuri layanan">
-                        <!-- <button class="btn" type="submit"><i class="fa fa-search"></i></button> -->
                     </div>
                 </form>
             </div>
