@@ -14,8 +14,7 @@ const bidang = {
     bidang: {},
 
     //layanan in bidang
-    layananInBidang: []
-
+    layananInBidang: [],
   },
 
   //mutations
@@ -40,7 +39,7 @@ const bidang = {
     //action getBidangs
     getBidangs({ commit }) {
       //get data bidangs ke server
-      Api.get("/bidangs")
+      Api.get("/web/bidangs")
         .then((response) => {
           //commit ke mutation GET_BIDANGS dengan response data
           commit("GET_BIDANGS", response.data.bidangs);
@@ -80,10 +79,7 @@ const bidang = {
   },
 
   //getters
-  getters: {
-
-  }
-
-}
+  getters: {},
+};
 
 export default bidang;
