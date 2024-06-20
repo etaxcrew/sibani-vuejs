@@ -42,7 +42,7 @@ const bidang = {
       Api.get("/web/bidangs")
         .then((response) => {
           //commit ke mutation GET_BIDANGS dengan response data
-          commit("GET_BIDANGS", response.data.bidangs);
+          commit("GET_BIDANGS", response.data.data);
         })
         .catch((error) => {
           //show error log dari response
@@ -53,10 +53,10 @@ const bidang = {
     //action getDetailBidang
     getDetailBidang({ commit }, slug) {
       //get data sliders ke server
-      Api.get(`/bidang/${slug}`)
+      Api.get(`/web/bidangs/${slug}`)
         .then((response) => {
           //commit ke mutation GET_BIDANGS dengan response data
-          commit("DETAIL_BIDANG", response.data.bidang);
+          commit("DETAIL_BIDANG", response.data.data);
         })
         .catch((error) => {
           //show error log dari response

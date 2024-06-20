@@ -31,7 +31,7 @@ const posts = {
             const token = localStorage.getItem('token')
 
             Api.defaults.headers.common['Authorization'] = "Bearer " +token
-            Api.get('/posts')
+            Api.get('/web/layanan')
             .then(response => {
                 
                 //commit ke mutation GET_POST
